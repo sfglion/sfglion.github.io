@@ -3,7 +3,13 @@
   <entry>
     <title>Simulink,Coppeliasim动力学</title>
     <url>/2021/08/23/Simulink-Coppeliasim%E5%8A%A8%E5%8A%9B%E5%AD%A6/</url>
-    <content><![CDATA[<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
+    <content><![CDATA[<h2 id="Coppeliasim部分"><a href="#Coppeliasim部分" class="headerlink" title="Coppeliasim部分"></a>Coppeliasim部分</h2><ul>
+<li>动力学的计算在2ms的时候感觉大概可以达成实时性，但是对于控制器来说可能2ms的速度不太够</li>
+</ul>
+<h2 id="Matlab"><a href="#Matlab" class="headerlink" title="Matlab"></a>Matlab</h2><ul>
+<li>Simu</li>
+</ul>
+<h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
 ]]></content>
@@ -23,7 +29,8 @@
 <li>blog目录右键git bash <code>hexo init</code>初始化目录</li>
 <li><code>hexo g</code>生成，<code>hexo s</code>本地服务端, <code>localhost：4000</code>即可访问本地端, <code>hexo d</code>部署</li>
 <li>_config.yml更改部署</li>
-<li>搜索控件<code>hexo-generator-searchdb </code><h2 id="Next部分"><a href="#Next部分" class="headerlink" title="Next部分"></a>Next部分</h2><code>git clone https://github.com/next-theme/hexo-theme-next themes/next</code> 或者<code>npm install hexo-theme-next</code></li>
+<li>搜索控件<code>hexo-generator-searchdb </code><h2 id="Next部分"><a href="#Next部分" class="headerlink" title="Next部分"></a>Next部分</h2></li>
+<li><code>git clone https://github.com/next-theme/hexo-theme-next themes/next</code> 或者<code>npm install hexo-theme-next</code></li>
 </ul>
 ]]></content>
       <categories>
