@@ -11,4 +11,23 @@
         <category>仿真</category>
       </categories>
   </entry>
+  <entry>
+    <title>Github pages+Hexo+Next</title>
+    <url>/2021/08/23/Github%20pages+Hexo+Next/</url>
+    <content><![CDATA[<h2 id="Github部分"><a href="#Github部分" class="headerlink" title="Github部分"></a>Github部分</h2><p>添加分类、标签、页面</p>
+<ul>
+<li>添加SSH Key <code>ssh-keygen -t rsa -C &quot;XX@XX.com&quot;</code><h2 id="Hexo部分"><a href="#Hexo部分" class="headerlink" title="Hexo部分"></a>Hexo部分</h2></li>
+<li>安装node.js</li>
+<li>安装hexo <code>npm install -g hexo-cli</code></li>
+<li>部署包<code>npm install hexo-deployer-git --save</code></li>
+<li>blog目录右键git bash <code>hexo init</code>初始化目录</li>
+<li><code>hexo g</code>生成，<code>hexo s</code>本地服务端, <code>localhost：4000</code>即可访问本地端, <code>hexo d</code>部署</li>
+<li>_config.yml更改部署</li>
+<li>搜索控件<code>hexo-generator-searchdb </code><h2 id="Next部分"><a href="#Next部分" class="headerlink" title="Next部分"></a>Next部分</h2><code>git clone https://github.com/next-theme/hexo-theme-next themes/next</code> 或者<code>npm install hexo-theme-next</code></li>
+</ul>
+]]></content>
+      <categories>
+        <category>杂</category>
+      </categories>
+  </entry>
 </search>
