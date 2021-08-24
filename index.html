@@ -305,7 +305,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-08-24 10:45:40" itemprop="dateModified" datetime="2021-08-24T10:45:40+08:00">2021-08-24</time>
+                <time title="修改时间：2021-08-24 10:54:34" itemprop="dateModified" datetime="2021-08-24T10:54:34+08:00">2021-08-24</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -333,6 +333,7 @@
 <li>在做包含动力学的时候用m函数+blocking方式会很慢，github simulink自带的共享内存的方式可以用，但是不确定是不是blocking方式的。</li>
 <li>只做接收数据的显示的话应该会很快，</li>
 <li><strong>应该可以用s-function写成blocking方式的共享内存的方式,不行的话单写成s-function加127.0.0.1的方式应该也可以，后面试一下</strong></li>
+<li>也可以加上试下用上simulink代码自动生成来提升计算的速度倒是</li>
 </ul>
 <h2 id="Matlab"><a href="#Matlab" class="headerlink" title="Matlab"></a>Matlab</h2><ul>
 <li>M文件结合着教程可以ip连接和共享内存连接，并且自带的共享内存比github的simulink的共享内存方式cpu占用低。simulink的共享内存运行起来就跑到100%。</li>
