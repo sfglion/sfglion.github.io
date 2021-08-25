@@ -40,4 +40,13 @@
         <category>杂</category>
       </categories>
   </entry>
+  <entry>
+    <title>Matlab日常</title>
+    <url>/2021/08/25/Matlab%E6%97%A5%E5%B8%B8/</url>
+    <content><![CDATA[<p>Functions supported for C/C++ Code Generation<br>不支持的内建函数，可以采用extrinsic</p>
+]]></content>
+      <categories>
+        <category>仿真</category>
+      </categories>
+  </entry>
 </search>
