@@ -97,11 +97,9 @@
     <title>KST相关</title>
     <url>/2021/10/25/KST%E7%9B%B8%E5%85%B3/</url>
     <content><![CDATA[<ul>
-<li>KST1.6 能够用函数调用，而不是使用类的方式。类的教程调用为KSTclass_Tutorial_*.m名称。函数调用名称为Tutorial_*.m的名称</li>
+<li>KST1.6 能够用函数调用，而不是使用类的方式。类的教程调用为KSTclass_Tutorial_.m名称。函数调用名称为Tutorial_*.m的名称</li>
 </ul>
-<h4 id="Phantom-Simulink"><a href="#Phantom-Simulink" class="headerlink" title="Phantom-Simulink"></a>Phantom-Simulink</h4><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">graph TD;</span><br><span class="line">id1(手控器)--手控器位置增量--&gt;id2(Kuka进行位姿逆解,保持姿态锁定,旋转矩阵锁定,只是平移向量变化)--&gt;id3(dd)</span><br></pre></td></tr></table></figure>
-
-<p>```flow<br>st=&gt;start: Start<br>op=&gt;operation: Your Operation<br>cond=&gt;condition: Yes or No?<br>e=&gt;end<br>st-&gt;op-&gt;cond<br>cond(yes)-&gt;e<br>cond(no)-&gt;op</p>
+<h4 id="Phantom-Simulink"><a href="#Phantom-Simulink" class="headerlink" title="Phantom-Simulink"></a>Phantom-Simulink</h4><p>手控器–&gt;手控器位置增量–&gt;Kuka进行位姿逆解，保持姿态锁定，选装矩阵锁</p>
 ]]></content>
       <categories>
         <category>人机混合智能</category>

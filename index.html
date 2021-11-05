@@ -413,7 +413,7 @@ mjx-container[display="true"] + br {
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-11-05 22:59:25" itemprop="dateModified" datetime="2021-11-05T22:59:25+08:00">2021-11-05</time>
+                <time title="修改时间：2021-11-05 23:28:44" itemprop="dateModified" datetime="2021-11-05T23:28:44+08:00">2021-11-05</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -437,11 +437,9 @@ mjx-container[display="true"] + br {
 
       
           <ul>
-<li>KST1.6 能够用函数调用，而不是使用类的方式。类的教程调用为KSTclass_Tutorial_*.m名称。函数调用名称为Tutorial_*.m的名称</li>
+<li>KST1.6 能够用函数调用，而不是使用类的方式。类的教程调用为KSTclass_Tutorial_.m名称。函数调用名称为Tutorial_*.m的名称</li>
 </ul>
-<h4 id="Phantom-Simulink"><a href="#Phantom-Simulink" class="headerlink" title="Phantom-Simulink"></a>Phantom-Simulink</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">graph TD;</span><br><span class="line">id1(手控器)--手控器位置增量--&gt;id2(Kuka进行位姿逆解,保持姿态锁定,旋转矩阵锁定,只是平移向量变化)--&gt;id3(dd)</span><br></pre></td></tr></table></figure>
-
-<p>```flow<br>st=&gt;start: Start<br>op=&gt;operation: Your Operation<br>cond=&gt;condition: Yes or No?<br>e=&gt;end<br>st-&gt;op-&gt;cond<br>cond(yes)-&gt;e<br>cond(no)-&gt;op</p>
+<h4 id="Phantom-Simulink"><a href="#Phantom-Simulink" class="headerlink" title="Phantom-Simulink"></a>Phantom-Simulink</h4><p>手控器–&gt;手控器位置增量–&gt;Kuka进行位姿逆解，保持姿态锁定，选装矩阵锁</p>
 
       
     </div>
